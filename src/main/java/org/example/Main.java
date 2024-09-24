@@ -9,7 +9,7 @@ public class Main {
     public static ArrayList<String> fizzBuzz (int n){
         ArrayList<String> list = new ArrayList<>();
         for (int i = 1; i<= n; i++){
-            if (i % 7 == 0 && i % 5 ==0){
+            if (i % 7 == 0 && i % 5 == 0){
                 list.add("fizzBuzz");
             }else if (i % 5 == 0){
                 list.add("fizz");
